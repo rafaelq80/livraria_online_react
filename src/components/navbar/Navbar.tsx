@@ -9,7 +9,7 @@ export default function Navbar() {
           <img
             alt="Livraria Online Logo"
             className="h-16 w-auto"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8H5CWn8lDmAUPRjETeRd999lpjQYanbsJ1qjEe-xXF6W807HnYw6g2mpej_M7PzJckkojFXzCHwQO38v5g-giZpqci4y5V10vFUVErQpLmd6YIQR_m7TkoHczgvuJC28cmoKE0s6FE-4mjwrT5Wh_3-KkDOyiiMugLL1XJKMcWI7IgNWNMhy801zRNxJ4mGQoX1FrYALhW0vELYXIcMKftjUGRwpLmcnwHlPK5LPOW18YYa0r9-LLBcMb1YLEEQ0-XA"
+            src="https://ik.imagekit.io/vzr6ryejm/livraria/logo_livraria.svg"
           />
         </div>
 
