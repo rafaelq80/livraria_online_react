@@ -7,17 +7,19 @@ const highlights: CardProps[] = [
     icon: <BookOpenIcon size={24} />,
     title: "Todos os Produtos",
     imageUrl: "https://ik.imagekit.io/vzr6ryejm/livraria/livros.png?updatedAt=1786984323789",
+    rota: "/produtos"
   },
   {
     icon: <StarFourIcon size={24} />,
     title: "Categorias em Destaque",
     imageUrl: "https://ik.imagekit.io/vzr6ryejm/livraria/categorias.png?updatedAt=1786984356417",
+    rota: "/categorias"
   },
 ];
 
 export default function Home() {
   return (
-    <main className="grow w-full max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16 flex flex-col gap-12">
+    <main className="grow w-full max-w-7xl mx-auto px-4 md:px-8 pt-24 md:pt-28 pb-12 md:pb-16 flex flex-col gap-12">
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row items-center justify-between gap-8 bg-white rounded-xl border border-slate-200 p-6 md:p-12 shadow-sm">
         <div className="flex-1 flex flex-col gap-4">
