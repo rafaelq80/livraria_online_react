@@ -45,7 +45,7 @@ export default function Navbar() {
 
       {/* Links de navegação (Mobile) */}
       <div className={`${menuAberto ? "flex" : "hidden"} md:hidden flex-col gap-1 border-t border-slate-200 px-4 py-3`}>
-        <Link to="/" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors" onClick={() => setMenuAberto(false)}>Home</Link>
+        <Link to="/home" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors" onClick={() => setMenuAberto(false)}>Home</Link>
         <Link to="/produtos" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors" onClick={() => setMenuAberto(false)}>Produtos</Link>
         <Link to="/categorias" className="px-3 py-1 text-slate-600 hover:text-blue-600 transition-colors" onClick={() => setMenuAberto(false)}>Categorias</Link>
       </div>
