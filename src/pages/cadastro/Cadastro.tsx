@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 
 function Cadastro() {
 	return (
@@ -100,12 +99,11 @@ function Cadastro() {
 						</div>
 
 						<div className="flex gap-3 mt-2">
-							<Link
-								to="/"
+							<button
 								className="flex-1 text-center border border-slate-300 text-slate-700 text-base px-6 py-3 rounded-lg hover:bg-slate-50 transition-colors font-medium"
 							>
 								Cancelar
-							</Link>
+							</button>
 							<button
 								type="submit"
 								className="flex-1 bg-blue-600 text-white text-base px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"

@@ -1,4 +1,4 @@
-import { ListIcon, ShoppingCartIcon, UserIcon, XIcon } from "@phosphor-icons/react";
+import { ListIcon, ShoppingCartIcon, SignOutIcon, UserIcon, XIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -32,6 +32,13 @@ export default function Navbar() {
           <Link to='' className="hidden sm:inline-flex text-blue-700 hover:bg-slate-100 transition-colors p-2 rounded-full" aria-label="Minha conta">
             <UserIcon size={22} />
           </Link>
+          <Link
+						to=''
+						className="sm:inline-flex text-blue-700 hover:bg-slate-100 transition-colors p-2 rounded-full"
+						aria-label="Sair"
+					>
+						<SignOutIcon size={22} />
+					</Link>
           <button
             className="md:hidden text-slate-600 p-2"
             onClick={() => setMenuAberto((open) => !open)}

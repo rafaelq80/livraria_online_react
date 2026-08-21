@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
             amantes da leitura.
           </p>
           <div className="mt-2">
-            <button className="bg-blue-600 text-white text-base px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium cursor-pointer">
+            <Link to=''
+              className="bg-blue-600 text-white text-base px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium cursor-pointer">
               Explorar Livros
-            </button>
+            </Link>
           </div>
         </div>
         <div className="flex-1 w-full h-64 md:h-80 rounded-lg overflow-hidden border border-slate-200">
